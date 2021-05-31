@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bella Olonje</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!---- Header Section Start ---->
+      <header>
+        <div class="header-logo-container">
+          <div class="navbar-slider">
+            <div class="close">
+              <span class="right-close-icon" onclick="closeNav()">X</span>
+              <ul>
+                <a href="#">
+                  <li>Home</li>
+                </a>
+                <a href="#">
+                  <li>Product</li>
+                </a>
+                <a href="#">
+                  <li>FAQ</li>
+                </a>
+                <a href="#">
+                  <li>Contact</li>
+                </a>
+              </ul>
+            </div>
+          </div>
+          <a href=""
+            ><img
+              class="header-logo"
+              src="assets/bella-olonje-header-image.png"
+              alt="header-logo"
+          /></a>
+        </div>
+        <div class="header-list-container">
+          <ul>
+            <a href="#"><li class="active">Home</li></a>
+            <a href="#"><li>Product</li></a>
+            <a href="#"><li>FAQ</li></a>
+            <a href="#"><li>Contact</li></a>
+          </ul>
+        </div>
+        <div class="hamburger-container" onclick="openNav()">
+          <img class="hamburger-svg" src="assets/hamburger-svg.svg" alt="" />
+        </div>
+      </header>
+      <!---- Header Section End ---->
+
+      <!---- Hero Section Start ---->
+      <div class="hero-container">
+        <h3>Food App</h3>
+        <h1>
+          Why stay hungry when <br />
+          you can order from Bella Olonje
+        </h1>
+        <h4>Download the Bella Olonje's food app now on</h4>
+        <div class="hero-button-container">
+          <button class="btn button-playstore">Playstore</button>
+          <button class="btn button-appstore">App store</button>
+        </div>
+      </div>
+      <!---- Hero Section End ---->
+
+      <!---- Hero Double Phones Section Star ---->
+      <div class="double-phones-container">
+        <img src="./assets/hero-double-phones.png" alt="" />
+      </div>
+      <!---- Hero Double Phones Section End ---->
+
+      <!---- How the App Works Section Start ---->
+      <div class="app-works-container">
+        <div class="horizontal-line"></div>
+        <div class="how-the-app-works-text-container">
+          <h3>How the app works</h3>
+        </div>
+      </div>
+      <!---- How the App Works Section End ---->
+
+      <!---- App Works Rows Section Start ---->
+      <div class="app-works-rows-container">
+        <div class="app-row">
+          <div class="app-row-image-container">
+            <img src="./assets/row-1.png" alt="" class="row-image" />
+          </div>
+          <div class="app-row-text-container">
+            <h3>Create an account</h3>
+            <h2>Create/login to an existing <br />account to get started</h2>
+            <h4>
+              An account is created with your email <br />and a desired password
+            </h4>
+          </div>
+        </div>
+        <div class="app-row reverse">
+          <div class="app-row-image-container">
+            <img src="./assets/row-2.png" alt="" class="row-image" />
+          </div>
+          <div class="app-row-text-container">
+            <h3>Explore varieties</h3>
+            <h2>Shop for your favorites meal</h2>
+            <h4>
+              Shop for your favorite meals or drinks <br />and enjoy while doing
+              it
+            </h4>
+          </div>
+        </div>
+        <div class="app-row">
+          <div class="app-row-image-container">
+            <img src="./assets/row-3.png" alt="" class="row-image" />
+          </div>
+          <div class="app-row-text-container">
+            <h3>Checkout</h3>
+            <h2>When you done check out and get it delivered</h2>
+            <h4>
+              When you done check out and get it <br />
+              delivered with ease
+            </h4>
+          </div>
+        </div>
+      </div>
+      <!---- App Works Rows Section End ---->
+
+      <!---- Footer Hero Section Start ---->
+      <div class="footer-hero-container">
+        <h3>Download the app now</h3>
+        <h1>
+          Available on your favorite store. Start your premium experience now
+        </h1>
+        <div class="footer-hero-button-container">
+          <button class="btn footer-button-playstore">Playstore</button>
+          <button class="btn footer-button-appstore">App store</button>
+        </div>
+      </div>
+      <!---- Footer Hero Section End ---->
+
+      <!---- Footer Section Start ---->
+      <div class="footer-container">
+        <div class="footer-logo-container">
+          <img src="./assets/bella-olonje-header-image.png" alt="" />
+        </div>
+        <div class="footer-icons-container">
+          <a href="#"
+            ><img
+              class="twitter-icon"
+              src="./assets/twitter-logo.svg"
+              alt="twitter"
+          /></a>
+          <a href="#"
+            ><img
+              class="facebook-icon"
+              src="./assets/facebook-logo.svg"
+              alt="facebook"
+          /></a>
+          <a href="#"
+            ><img
+              class="instagram-icon"
+              src="./assets/instagram-logo.svg"
+              alt="instagram"
+          /></a>
+        </div>
+        <div class="footer-text-container">
+          <p>Copyright 2021</p>
+        </div>
+      </div>
+      <!---- Footer Section End ---->
+    </div>
+    <script>
+      function openNav() {
+        document.querySelector(".navbar-slider").style.right = "0px";
+      }
+
+      function closeNav() {
+        document.querySelector(".navbar-slider").style.right = "-100%";
+      }
+    </script>
+  </body>
+</html>

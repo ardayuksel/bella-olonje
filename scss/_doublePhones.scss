@@ -1,0 +1,17 @@
+.double-phones-container {
+  text-align: center;
+  img {
+    margin-top: -180px;
+    margin-left: -110px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .double-phones-container {
+    img {
+      height: 540px;
+      width: 430px;
+      margin-left: -80px;
+      margin-top: 0px;
+    }
+  }
+}

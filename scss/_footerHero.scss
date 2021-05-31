@@ -1,0 +1,95 @@
+.footer-hero-container {
+  background: url(../assets/download-app-photo.png);
+  min-height: 509px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  h3 {
+    padding-top: 140px;
+    padding-bottom: 27px;
+    font-weight: 700;
+    font-family: Montserrat;
+    color: #f6f6f6;
+    font-size: 40px;
+    line-height: 36px;
+  }
+  h1 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: white;
+    padding-bottom: 36px;
+  }
+  h4 {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #f6f6f6;
+    padding-bottom: 36px;
+  }
+  .hero-button-container {
+    display: flex;
+    justify-content: center;
+  }
+  .btn {
+    padding: 24px 60px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    font-family: Montserrat;
+    color: white;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    cursor: pointer;
+  }
+  .footer-button-playstore {
+    background: #fa4a0c;
+    margin-right: 16px;
+    &:hover {
+      color: #fa4a0c;
+      background: white;
+    }
+  }
+  .footer-button-appstore {
+    background: transparent;
+    border: 2px solid white;
+    margin-left: 16px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .footer-hero-container {
+    background: #252b42;
+    padding-bottom: 110px;
+    h3 {
+      color: white;
+    }
+    h1 {
+      color: #bdbdbd;
+      font-size: 24px;
+      letter-spacing: 0.2px;
+      line-height: 42.5px;
+      padding: 0 16px;
+      margin-bottom: 17px;
+    }
+    .footer-hero-button-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .footer-button-playstore,
+    .footer-button-appstore {
+      min-width: 236px;
+      max-height: 68px;
+      margin: 16px;
+      padding: 16px;
+    }
+    .footer-button-appstore {
+      color: #fa4a0c;
+    }
+  }
+}
