@@ -292,14 +292,16 @@ header {
     cursor: pointer; }
   .hero-container .button-playstore {
     background: #fa4a0c;
-    margin-right: 16px; }
+    margin-right: 16px;
+    z-index: 3; }
     .hero-container .button-playstore:hover {
       color: #fa4a0c;
       background: white; }
   .hero-container .button-appstore {
     background: transparent;
     border: 2px solid white;
-    margin-left: 16px; }
+    margin-left: 16px;
+    z-index: 3; }
 
 @media screen and (max-width: 1024px) {
   .hero-container {

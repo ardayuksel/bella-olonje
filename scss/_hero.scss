@@ -51,6 +51,7 @@
   .button-playstore {
     background: #fa4a0c;
     margin-right: 16px;
+    z-index: 3;
     &:hover {
       color: #fa4a0c;
       background: white;
@@ -60,6 +61,7 @@
     background: transparent;
     border: 2px solid white;
     margin-left: 16px;
+    z-index: 3;
   }
 }
 @media screen and (max-width: 1024px) {
